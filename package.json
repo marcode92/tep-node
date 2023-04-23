@@ -12,8 +12,10 @@
     "body-parser": "~1.0.1",
     "cors": "^2.8.1",
     "express": "~4.0.0",
+    "moment": "^2.29.4",
     "msnodesqlv8": "^3.1.0",
     "mssql": "^6.2.1",
+    "observable": "^2.1.4",
     "oledb": "^1.6.0",
     "tedious": "^15.1.3"
   },

@@ -1,7 +1,7 @@
 export interface CreateExtratime{
     nome?: string;
     cognome?: string;
-    mese?:string,
+    mese?:number,
     residuoMesiPrecFeriali?: number;
     residuoMesiPrecFestivi?: number;
     residuoMesiPrecNonFestivi?: number;

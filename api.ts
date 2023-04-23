@@ -56,9 +56,10 @@ app.post('/createextratime',(request, response) => {
    residuoCorrenteNonFestivi: request.body.residuoCorrenteNonFestivi,
    mese: request.body.mese,
    }
-  createExtratime(newExtratime).then(/* x  => {
-    console.log(x) */
-    //response.status(201).json(x);
+  createExtratime(newExtratime).then( x  => {
+    console.log(x) 
+    response.status(201).json(x);
+  }
   )
 }) 
   
